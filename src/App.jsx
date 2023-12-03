@@ -21,7 +21,7 @@ function App() {
       <Header />
       <section id="products">
         <ProductsTitle />
-        <Buttons handleClick={handleClick} />
+        <Buttons handleClick={handleClick} btnValue={productValue} />
         {productContent}
       </section>
     </div>

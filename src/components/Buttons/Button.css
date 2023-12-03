@@ -7,10 +7,14 @@
   border: 1px solid var(--color-black);
   color: var(--color-black);
   cursor: pointer;
-  transition: 0.5s all ease;
+  transition: 0.3s all ease;
 }
 
 .btn:hover {
   background-color: #d1345baf;
   color: var(--color-white);
+}
+
+.active {
+  background-color: var(--color-green);
 }

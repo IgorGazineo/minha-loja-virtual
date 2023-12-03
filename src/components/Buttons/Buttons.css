@@ -1,6 +1,7 @@
 .btns {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 
   margin: 1rem auto 0 auto;

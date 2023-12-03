@@ -1,9 +1,10 @@
 import "./Button.css";
 
-export default function Button({ children, handleClick }) {
+export default function Button({ children, handleClick, className }) {
+  const newClass = `btn ${className}`;
   return (
     <li>
-      <button className="btn" onClick={handleClick}>
+      <button className={newClass} onClick={handleClick}>
         {children}
       </button>
     </li>

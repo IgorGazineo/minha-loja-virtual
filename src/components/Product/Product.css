@@ -6,7 +6,7 @@
   margin: 1rem auto 0 auto;
   border-radius: 1rem;
   max-width: 40rem;
-  height: 350px;
+  min-height: 350px;
 }
 
 .product {
@@ -31,4 +31,13 @@
   margin-top: 1rem;
   color: var(--color-white);
   text-shadow: 1px 1px 2px var(--color-black);
+}
+
+@media (max-width: 650px) {
+  .product {
+    flex-direction: column;
+  }
+  .product-right {
+    margin-top: 2rem;
+  }
 }
