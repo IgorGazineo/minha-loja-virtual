@@ -1,0 +1,8 @@
+.btns {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+
+  margin: 1rem auto 0 auto;
+  max-width: 40rem;
+}

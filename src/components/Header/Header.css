@@ -1,0 +1,22 @@
+header {
+  background-color: var(--color-black);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  color: var(--color-green);
+  font-size: 3rem;
+  animation: 2s ease fadeIn;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
