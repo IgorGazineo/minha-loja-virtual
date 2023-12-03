@@ -1,0 +1,21 @@
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--color-white);
+  background-image: linear-gradient(var(--color-red), var(--color-black) 60%);
+  /* padding: 1rem; */
+  margin: 1rem auto 0 auto;
+  border-radius: 1rem;
+  max-width: 40rem;
+  height: 400px;
+}
+
+.product img {
+  width: 120px;
+}
+
+.products {
+  margin: 1rem;
+}
