@@ -1,4 +1,13 @@
-# React + Vite
+# Minha Loja Virtual
+
+<h2>Tecnologias utilizadas:</h2>
+<ul>
+ <li>HTML</li>
+ <li>CSS</li>
+ <li>React</li>
+</ul>
+
+link: <a>Em breve</a>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
