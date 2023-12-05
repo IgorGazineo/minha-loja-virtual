@@ -1,5 +1,8 @@
 # Minha Loja Virtual
 
+![Screenshot 2023-12-05 03 29 34](https://github.com/IgorGazineo/minha-loja-virtual/assets/108752490/6343bf30-6cb3-45c4-8d55-430666365fa2)
+
+
 <h2>Tecnologias utilizadas:</h2>
 <ul>
  <li>HTML</li>
@@ -7,7 +10,7 @@
  <li>React</li>
 </ul>
 
-link: <a>Em breve</a>
+link: <a href='https://minha-loja-virtual.netlify.app/'>Acessar a página</a>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
