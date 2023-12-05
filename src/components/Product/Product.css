@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(var(--color-blue), var(--color-red) 60%);
+  background-image: linear-gradient(var(--color-red), var(--color-blue) 60%);
   padding: 3rem;
   margin: 1rem auto 0 auto;
   border-radius: 1rem;
@@ -67,6 +67,9 @@
 @media (max-width: 700px) {
   .product {
     flex-direction: column;
+  }
+  .product-img {
+    width: 260px;
   }
   .product-right {
     margin-top: 2rem;

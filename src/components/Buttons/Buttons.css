@@ -1,9 +1,36 @@
 .btns {
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
-
   margin: 1rem auto 0 auto;
   max-width: 40rem;
+}
+
+.btns-product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btns .last-btn {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: none;
+  width: 100px;
+  transition: 0.5s all ease;
+}
+
+.btns .last-btn:hover {
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
+
+@media (max-width: 725px) {
+  .bts {
+    flex-direction: column;
+    gap: 3rem;
+  }
 }

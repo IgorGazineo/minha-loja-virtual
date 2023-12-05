@@ -11,8 +11,7 @@
 }
 
 .btn:hover {
-  background-color: #d1345baf;
-  color: var(--color-white);
+  background-color: var(--color-green);
 }
 
 .active {
