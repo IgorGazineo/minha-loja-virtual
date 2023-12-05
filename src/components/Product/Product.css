@@ -77,7 +77,18 @@
 }
 
 @media (max-width: 440px) {
+  .product-card {
+    padding: 1rem;
+    min-height: 300px;
+  }
   .product-img {
-    width: 200px;
+    width: 150px;
+  }
+
+  .product-right h4 {
+    font-size: 1.25rem;
+  }
+  .product-right p {
+    font-size: 0.8rem;
   }
 }
